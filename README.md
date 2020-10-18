@@ -1,6 +1,3 @@
-### Hello-world
-This is my first repository in Github, cool!
+### Professional Certified Professional Programming in Python
 
-I am going to edit the READM file and I feel I am a great guy. 
-lol.
 
