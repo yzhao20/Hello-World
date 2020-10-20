@@ -14,7 +14,10 @@ dir(math)  # Write directly in console to get a list of all entities.
 
 
 """
-2. Some functions from the math module
+2. Thress groups from the math module:
+    Trigonometry 
+    Exponential
+    Ggeneral purpose
 """
 from math import pi, radians, degrees, asin, sin, cos, tan  # Selective import
 ad = 90    # Angle degree 
@@ -25,7 +28,24 @@ print(ar == pi / 2)
 print(sin(ar) / cos(ar) ==  tan(ar))   
 print(asin(sin(ar)) == ar)
 
+
 from math import e, exp, log   # Selective import
 print(pow(e, 1) == exp(log(e))   # Pow(x,y) stands for x ** y, this function is a built-in function so no need to be imported. 
 print(pow(2, 2) == exp(2 * log(2))  # log(x, b) stands for log of x base b. In particular, log10(x) is more precise than log(x, 10), so is log2(x).
 print(log(e, e) == exp(0))
+
+
+from math import ceil, floor, trunc  # Selective import
+x = 1.4  
+y = 2.6
+print(floor(x), floor(y))
+print(floor(-x), floor(-y))
+print(ceil(x), ceil(y))
+print(ceil(-x), ceil(-y))
+      
+
+"""
+3. Randomness
+"""
+
+
