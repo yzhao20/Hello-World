@@ -1,7 +1,7 @@
 """
 1. Working with standard modules
 """
-import math as M    # Import a module with alia name "M". The module has to be imported AS A WHOLE, i.e., using the import module instruction - from module is NOT enough!
+import math as M    # Import a module with alia name "M". The module has to be imported AS A WHOLE, i.e., using the "import module" instruction - "from module..." is NOT enough!
 print(dir(M), len(dir(M)))  # dir() function returns an alphabetically sorted list containing all entities. 
 print(type(dir(M))) # <class 'list'>
 
