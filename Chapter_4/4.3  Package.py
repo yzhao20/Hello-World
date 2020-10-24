@@ -44,8 +44,10 @@ print(prodl(ones))
 3. Create a package, which has a number of modules and sub-package too.
 """
 from sys import path   # Selective import, and sys is another coomon built-in module.
-path.append('C:\\Users\\yunfeng.zhao\\PycharmProjects\\PCPP\\Packages\\Extrapack_4_3_24.zip')  # Path.append is used to add a specific package path. \
+path.append('C:\\Users\\yunfeng.zhao\\PycharmProjects\\PCPP\\Packages\\Extrapack_4_3_24.zip')  # Path is a list, so Path.append is used to add a specific package path list element. \
                                                                                                #Doulbe \ is used as we want to get a single backslash. The last element is a zip file but won't affect anything.
+print(path)  # Print out this new list. 
+
 import extra.good.best.sigma as sig  # Sigma is a module, using alia makes it much easier
 import extra.good.alpha as alp
 from extra.iota import FunI  # Selective import, FunI is a specific function
