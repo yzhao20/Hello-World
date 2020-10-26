@@ -1,5 +1,4 @@
 #### PCPP: Certified Professional in Python Programming
-Excellent materials.
 ##### 4.1  Using Modules
 ##### 4.2  Some Useful Modules
 ##### 4.3  What is a package
