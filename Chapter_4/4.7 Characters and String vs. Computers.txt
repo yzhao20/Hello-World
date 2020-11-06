@@ -1,0 +1,18 @@
+1. Computers store characters as numbers. Every character used by a computer corresponds to a unique number, and vice versa. This assignment must include more characters than you might expect. Many of them are invisible to humans, but essential to computers.
+
+2. ASCII (American Standard Code for Information Interchange) is the most widely used, and you can assume that nearly all modern devices (like computers, printers, mobile phones, tablets, etc.) use that code. The code provides space for 256 different characters, but we are interested only in the first 128.
+
+3. A classic form of ASCII code uses eight bits for each sign. Eight bits mean 256 different characters. The first 128 are used for the standard Latin alphabet (both upper-case and lower-case characters).
+
+4. Code point = a number which makes a character.
+   E.g. 32 is a code point which makes a space in ASCII encoding.
+   
+5. Code page = a standard for using the upper 128 code points to store specific national characters
+
+6. Unicode assigns unique (unambiguous) characters (letters, hyphens, ideograms, etc.) to more than a millian code points.
+
+7. UTF-8, which is Unicode Transformation Format. It uses as many bits for each of the code points as it really needs to represent them.
+   E.g.
+   All Latin characters (and all standard ASCII characters) occupy eight bits.
+   Non-Latin characters occupy 16 bits.
+   CJK (China-Japan-Korea) ideographs occupy 24 bits.
