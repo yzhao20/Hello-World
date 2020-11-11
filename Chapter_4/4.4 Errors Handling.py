@@ -5,7 +5,7 @@ try:  # This is the prefer approach.
   x = int(input("> "))   # Int conversion could get ValueError.
   y = 1 / x    # Division could get an ZeroDivisionError.
   print(y)
-except ValueError:  # ValueError is a builtins.
+except ValueError:  # ValueError is a builtins, the order of exception DOES matter.
   print("Please enter an integer value.")
 except ZeroDivisionError:   # ZeroDivisionError is a builtins.
   print("Please enter an non-zero value")
