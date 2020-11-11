@@ -7,8 +7,8 @@ __counter = 0   # A new variable called "__counter".
 
 def suml(l):  # Define a function with an input called l
     global __counter # Use the global variable inside this function
-    __counter += 1  #
-    sum = 0  # Initialize a sum variable
+    __counter += 1  # Plus 1
+    sum = 0  # Initiate a sum variable
     for el in l:  # Get the sum of a list
         sum += el
     return sum # Output for this function
@@ -41,7 +41,7 @@ print(prodl(ones))
 
 
 """
-3. Create a package, which has a number of modules and sub-package too.
+3. Create a package, which has a number of modules and sub-packages too.
 """
 from sys import path   # Selective import, and sys is another coomon built-in module.
 path.append('C:\\Users\\yunfeng.zhao\\PycharmProjects\\PCPP\\Packages\\Extrapack_4_3_24.zip')  # Path is a list, so Path.append is used to add a specific package path list element. \
