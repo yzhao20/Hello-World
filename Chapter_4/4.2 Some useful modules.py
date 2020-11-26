@@ -14,7 +14,7 @@ dir(math)  # Write directly in console to get a list of all entities.
 
 
 """
-2. Thress groups from the math module:
+2. Three groups from the math module:
     Trigonometry 
     Exponential
     Ggeneral purpose
@@ -29,7 +29,7 @@ print(sin(ar) / cos(ar) ==  tan(ar))
 print(asin(sin(ar)) == ar)
 
 
-from math import e, exp, log   # Selective import
+from math import e, exp, log   # Selective import, seperated by comma
 print(pow(e, 1) == exp(log(e))   # Pow(x,y) stands for x ** y, this function is a built-in function so no need to be imported. 
 print(pow(2, 2) == exp(2 * log(2))  # log(x, b) stands for log of x base b. In particular, log10(x) is more precise than log(x, 10), so is log2(x).
 print(log(e, e) == exp(0))
