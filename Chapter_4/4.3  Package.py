@@ -1,14 +1,14 @@
 """
-1.  Create a python module, In definition, a module is basically a .py file which contains Python functions, global variables etc. 
+1.  Create a python module: By definition, a module is basically a .py file which contains Python functions, global variables etc. 
 """
 #!/usr/bin/env python3   # "#!" is called shebang or hashbang. Which is required in Unix or Unix-like envrionment, indicating which interpreter should process the file.
 """module.py - an example of Python module"""
 __counter = 0   # A new variable called "__counter".
 
 def suml(l):  # Define a function with an input called l
-    global __counter # Use the global variable inside this function
+    global __counter # Use the global keyword to decalre this variable inside this function
     __counter += 1  # Plus 1
-    sum = 0  # Initiate a sum variable
+    sum = 0  # Initiate a sum variable with value 0
     for el in l:  # Get the sum of a list
         sum += el
     return sum # Output for this function
