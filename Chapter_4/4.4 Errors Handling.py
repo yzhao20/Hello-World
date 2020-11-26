@@ -1,8 +1,8 @@
 """
-Python prefers to use "try... except" statement to handle errors rather than "if... else" statments.
+Python prefers to use "try... except" statement to handle errors rather than "if... else" flow control.
 """
 try:  # This is the prefer approach.
-  x = int(input("> "))   # Int conversion could get ValueError.
+  x = int(input("> "))   # Integer conversion could get ValueError.
   y = 1 / x    # Division could get an ZeroDivisionError.
   print(y)
 except ValueError:  # ValueError is a builtins, the order of exception DOES matter.
